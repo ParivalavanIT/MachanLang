@@ -1,0 +1,24 @@
+{
+  "name": "machan-lang",
+  "version": "1.0.0",
+  "description": "MachanLang interpreted esoteric language",
+  "main": "cli.js",
+  "bin": {
+    "machan": "cli.js"
+  },
+  "license": "MIT",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node cli.js run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "machanlang"
+  ],
+  "author": "PARIVALAVANIT"
+}

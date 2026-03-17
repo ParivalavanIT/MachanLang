@@ -1,0 +1,18 @@
+function machi twoSum(nums, n, target)
+  set da i = 0
+  while da i < n
+    set da j = i + 1
+    while da j < n
+      if da nums[i] + nums[j] == target na
+        intha vechiko [i, j]
+      mudichu
+      set da j = j + 1
+    mudichu
+    set da i = i + 1
+  mudichu
+  intha vechiko [-1, -1]
+mudichu
+
+set da arr = [2, 7, 11, 15]
+set da ans = twoSum(arr, 4, 9)
+solu ans

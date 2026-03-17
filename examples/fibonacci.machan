@@ -1,0 +1,14 @@
+function machi fib(n)
+  if da n <= 1 na
+    return n
+  illa na
+    return fib(n - 1) + fib(n - 2)
+  mudichu
+mudichu
+
+set da i = 0
+while da i < 10
+  solu fib(i)
+  sollu pari
+  set da i = i + 1
+mudichu

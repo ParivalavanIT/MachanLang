@@ -1,0 +1,17 @@
+set da i = 1
+while da i <= 15
+  if da (i % 3 == 0) athuvum (i % 5 == 0) na
+    solu "FizzBuzz"
+  illa na
+    if da i % 3 == 0 na
+      solu "Fizz"
+    illa na
+      if da i % 5 == 0 na
+        solu "Buzz"
+      illa na
+        solu i
+      mudichu
+    mudichu
+  mudichu
+  set da i = i + 1
+mudichu
